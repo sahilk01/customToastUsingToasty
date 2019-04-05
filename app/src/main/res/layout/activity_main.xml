@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/error_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="error button"
+        android:onClick="showToast"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/success_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="success button"
+        android:onClick="showToast"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info button"
+        android:onClick="showToast"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/warning_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="warning button"
+        android:onClick="showToast"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="image button"
+        android:onClick="showToast"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
